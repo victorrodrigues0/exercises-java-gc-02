@@ -1,5 +1,4 @@
 import br.com.victor.models.character.Character;
-import br.com.victor.models.produto.Produto;
 
 public class Main {
     static void main() {
@@ -25,21 +24,21 @@ public class Main {
     m1.exibeFicha();
          */
 
-        Character c1 = new Character();
-        Produto produto = new Produto("Celular", 2000.0);
+//        Character c1 = new Character();
+////        Produto produto = new Produto("Celular", 2000.0);
+//
+//        c1.setName("/nArcher");
+//        c1.setAge(290);
+//        c1.setGender("Masculine");
+//        c1.setRace("elf");
+//        c1.setWeapon("Bow");
+//
+//        c1.showStats();
 
-        c1.setName("/nArcher");
-        c1.setAge(290);
-        c1.setGender("Masculine");
-        c1.setRace("elf");
-        c1.setWeapon("Bow");
-
-        c1.showStats();
-
-        System.out.println("Nome do Produto: " + produto.getNome());
-        System.out.println("Preço: " + produto.getPreco());
-
-        produto.aplicarDesconto(10);
-        System.out.println("Novo Preço após Desconto: " + produto.getPreco());
+//        System.out.println("Nome do Produto: " + produto.getNome());
+//        System.out.println("Preço: " + produto.getPreco());
+//
+//        produto.aplicarDesconto(10);
+//        System.out.println("Novo Preço após Desconto: " + produto.getPreco());
     }
 }

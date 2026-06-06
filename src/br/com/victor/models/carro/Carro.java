@@ -1,4 +1,4 @@
-package br.com.victor.models.Carro;
+package br.com.victor.models.carro;
 
 public class Carro {
     private String modelo;

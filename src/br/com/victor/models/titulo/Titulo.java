@@ -1,4 +1,4 @@
-package br.com.victor.models.Titulo;
+package br.com.victor.models.titulo;
 
 public class Titulo {
     private String nome;

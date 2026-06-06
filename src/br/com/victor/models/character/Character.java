@@ -1,54 +1,35 @@
 package br.com.victor.models.character;
 
 public class Character {
-    private String name, gender, race, weapon;
-    private int age, helth = 100, mana = 30;
+    private String name, gender;
+    private int age, health = 100;
+
+    public Character (String name, String gender, int age) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.health = 100;
+    }
 
     public void showStats() {
         System.out.println("Name: " + name);
         System.out.println("Gender: " + gender);
-        System.out.println("Race: " + race);
         System.out.println("Age: " + age);
-        System.out.println("Helth: " + helth);
-        System.out.println("Mana: " + mana);
-        System.out.println("Weapon: " + weapon);
+        System.out.println("Health: " + health);
     }
 
-    public int getMana() {
-        return mana;
+    public int getHealth() {
+        return health;
     }
 
-    public String getRace() {
-        return race;
-    }
-
-    public void setRace(String race) {
-        this.race = race;
-    }
-
-    private void setMana(int mana) {
-        this.mana = mana;
-    }
-
-    public int getHelth() {
-        return helth;
-    }
-
-    private void setHelth(int helth) {
-        this.helth = helth;
+    private void setHealth(int health) {
+        this.health = health;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getWeapon() {
-        return weapon;
-    }
-
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
-    }
 
     public void setName(String name) {
         this.name = name;

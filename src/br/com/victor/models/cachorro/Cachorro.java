@@ -1,6 +1,6 @@
-package br.com.victor.models.Cachorro;
+package br.com.victor.models.cachorro;
 
-import br.com.victor.models.Animal.Animal;
+import br.com.victor.models.animal.Animal;
 
 public class Cachorro extends Animal {
     @Override

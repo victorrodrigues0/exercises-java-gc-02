@@ -1,6 +1,6 @@
-import br.com.victor.models.CalculaTempo.CalculaTempo;
-import br.com.victor.models.Filme.Filme;
-import br.com.victor.models.Serie.Serie;
+import br.com.victor.models.calculatempo.CalculaTempo;
+import br.com.victor.models.filme.Filme;
+import br.com.victor.models.serie.Serie;
 
 public class Main2 {
     static void main() {

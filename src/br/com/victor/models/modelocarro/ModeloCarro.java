@@ -1,6 +1,6 @@
-package br.com.victor.models.ModeloCarro;
+package br.com.victor.models.modelocarro;
 
-import br.com.victor.models.Carro.Carro;
+import br.com.victor.models.carro.Carro;
 
 public class ModeloCarro  extends Carro {
 

@@ -1,4 +1,4 @@
-package br.com.victor.models.Animal;
+package br.com.victor.models.animal;
 
 public class Animal {
     public void emitirSom() {

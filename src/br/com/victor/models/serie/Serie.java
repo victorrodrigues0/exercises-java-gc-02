@@ -1,6 +1,6 @@
-package br.com.victor.models.Serie;
+package br.com.victor.models.serie;
 
-import br.com.victor.models.Titulo.Titulo;
+import br.com.victor.models.titulo.Titulo;
 
 public class Serie extends Titulo {
     private int temporadas = 0, episodiosPorTemporada = 0, minutosPorEpisodio = 0;

@@ -1,6 +1,6 @@
-package br.com.victor.models.Filme;
+package br.com.victor.models.filme;
 
-import br.com.victor.models.Titulo.Titulo;
+import br.com.victor.models.titulo.Titulo;
 
 public class Filme extends Titulo {
     private String diretor;

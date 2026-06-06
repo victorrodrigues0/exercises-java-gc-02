@@ -1,6 +1,6 @@
-package br.com.victor.models.CalculaTempo;
+package br.com.victor.models.calculatempo;
 
-import br.com.victor.models.Titulo.Titulo;
+import br.com.victor.models.titulo.Titulo;
 
 public class CalculaTempo {
     private int tempoTotal = 0;
